@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc",
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
