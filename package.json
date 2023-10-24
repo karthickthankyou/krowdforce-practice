@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm exec nx run-many --target=build"
+  },
   "keywords": [],
   "author": "Karthick Ragavendran",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "17.0.1"
+  }
 }
